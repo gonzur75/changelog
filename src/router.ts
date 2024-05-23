@@ -2,10 +2,11 @@ import { Router } from 'express';
 
 const router =  Router();
 
-router.get('/products', (req, res, ) =>{
-    console.log('Trfiony');
+router.get('/products', (req: any, res) =>{
+    console.log('Trafiony');
     res.json({message: 'yolo'});
 });
+
 router.get('/products/:id', () =>{});
 router.post('/products', () =>{});
 router.put('/products/:id', () =>{});
