@@ -43,7 +43,6 @@ export const deleteProduct = async (req, res) => {
             id: req.params.id,
             belongsToId: req.user.id
 
-
     }
 })
 }
